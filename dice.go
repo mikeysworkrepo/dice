@@ -69,8 +69,9 @@ func PostRoll() string {
 
 		if _, exists := rerollOptions[rerollChoice]; exists {
 			return rerollChoice
+		} else {
+			fmt.Println("Invalid input. Select either option 1 or 2")
 		}
 	}
 
-	fmt.Println("")
 }

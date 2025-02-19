@@ -8,4 +8,11 @@ func main() {
 	fmt.Printf("you have rolled a %s!", Roll(Dice()))
 	fmt.Scanln()
 
+	if PostRoll() == "true" {
+		fmt.Printf("you have rolled a %s!", Roll(Dice()))
+		fmt.Scanln()
+	} else {
+		fmt.Println("placeholder for change dice")
+	}
+
 }
