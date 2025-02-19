@@ -53,7 +53,7 @@ func Roll(choice string) string {
 	return choice
 }
 
-func PostRoll() bool {
+func PostRoll() string {
 	rerollOptions := map[string]string{
 		"1": "true",
 		"2": "false",
